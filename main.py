@@ -1,5 +1,11 @@
+from logging_config import setup_logging
+
+
+logger = setup_logging()
+
+
 def main():
-    print("Hello from uvtemplate!")
+    logger.info("Hello from uvtemplate!")
 
 
 if __name__ == "__main__":

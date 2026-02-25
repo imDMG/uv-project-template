@@ -6,7 +6,9 @@ readme = "README.md"
 requires-python = ">=3.13"
 license = { text = "MIT" }
 authors = [{ name = "imDMG", email = "imdmgg@gmail.com" }]
-dependencies = []
+dependencies = [
+    "loguru>=0.7.3",
+]
 
 [dependency-groups]
 dev = [
@@ -56,7 +58,7 @@ docstring-code-format = true
 docstring-code-line-length = "dynamic"
 
 # --- Pyright Configuration ---
-[tool.pyright]
+[tool.basedpyright]
 # include = ["src", "tests"]
 exclude = ["**/__pycache__", ".venv", "dist"]
 pythonVersion = "3.13"
