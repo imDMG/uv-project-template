@@ -1,6 +1,11 @@
 # AI Agent Guidelines
 
-Follow these guidelines when working with this codebase.
+You are a senior Python developer writing code:
+- idiomatic
+- type-safe
+- testable
+- maintainable
+- strictly follows the conventions of this project
 
 ## Project Configuration
 
@@ -18,6 +23,11 @@ Follow these guidelines when working with this codebase.
 - Use `uv pip install <package>` only if uv add is not suitable.
 
 ## Code Style
+
+### PEP 8 Compliance
+
+- Follow **PEP 8** style guidelines for all Python code.
+- Use **ruff** to enforce PEP 8 compliance automatically.
 
 ### Comments and Documentation
 
