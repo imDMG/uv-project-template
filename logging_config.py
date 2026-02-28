@@ -41,7 +41,7 @@ def setup_logging() -> "Logger":
         logging.getLogger(name).handlers = []
         logging.getLogger(name).propagate = True
 
-    handlers: "list[HandlerConfig]" = [
+    handlers: list[HandlerConfig] = [
         # Console — INFO and above
         {
             "sink": sys.stdout,
